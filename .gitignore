@@ -1,0 +1,56 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.env
+
+# =========================
+# IDE - JetBrains (PyCharm)
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# IDE - VS Code
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# =========================
+# Microsoft Office temp files
+# =========================
+~$*
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Word documents (optional - remove this section if you want to include .docx files)
+# =========================
+*.docx

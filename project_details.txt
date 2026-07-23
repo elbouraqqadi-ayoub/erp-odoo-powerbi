@@ -1,0 +1,12 @@
+End-to-End ERP System for Revenue Management & Business Intelligence: 
+
+Odoo 17, Python, PostgreSQL, Power BI, ETL, Linux
+
+• Developed and deployed a custom Odoo ERP extension module in Python, optimizing financial workflows and
+enterprise resource visibility.
+• Modeled relational schemas in PostgreSQL on Linux and established secure data synchronization layers to support
+complex analytics workflows.
+• Architected a reliable ETL pipeline utilizing ODBC protocols to extract multi-departmental transactional data
+seamlessly.
+• Designed interactive dashboards and analytical models in Power BI to monitor real-time financial KPIs and revenue
+performance metrics.

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id="amoa_menu_root" name="CA" sequence="8"/>
+
+        <record id="action_vente" model="ir.actions.act_window">
+            <field name="name">Ventes</field>
+            <field name="res_model">ventes_ayoub.ventes_ayoub</field>
+            <field name="view_mode">list,form</field> </record>
+
+        <menuitem id="menu_vente" name="Ventes" action="action_vente"
+                  parent="amoa_menu_root" sequence="2"/>
+
+        <record id="vente_list" model="ir.ui.view">
+            <field name="name">Ventes list</field>
+            <field name="model">ventes_ayoub.ventes_ayoub</field>
+            <field name="arch" type="xml">
+                <list string="Ventes"> <field name="name"/>
+                    <field name="date_facture"/>
+                    <field name="montant"/>
+                    <field name="chiffredaffaires"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="vente_form" model="ir.ui.view">
+            <field name="name">Ventes form</field>
+            <field name="model">ventes_ayoub.ventes_ayoub</field>
+            <field name="arch" type="xml">
+                <form string="Ventes">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="date_facture"/>
+                                <field name="montant"/>
+                            </group>
+                            <group>
+                                <field name="chiffredaffaires" readonly="1"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>
